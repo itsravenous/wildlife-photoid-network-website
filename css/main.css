@@ -18,11 +18,13 @@ img {
 }
 a {
 	color: #0fa900;
+	text-decoration: none;
+	font-weight: bold;
 	transition: all 0.3s;
 }
-a:focus
+a:focus,
 a:hover {
-	color: #0da700;
+	color: #62CC0C;
 }
 
 /**
