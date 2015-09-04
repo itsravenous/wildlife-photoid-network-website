@@ -55,6 +55,8 @@ a:hover {
  */
 .main-footer {
 	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
 }
 .main-footer:after {
 	content: '';
@@ -62,7 +64,8 @@ a:hover {
     width: 100%;
 }
 .main-footer img {
-	max-height: 10rem;
+	max-width: 33%;
+	max-height: 8rem;
 	vertical-align: middle;
 	margin-bottom: 2rem;
 }
@@ -83,6 +86,12 @@ a:hover {
 @media screen and (max-width: 60rem) {
 	body {
 		padding: 0 1rem;
+	}
+	.main-footer {
+		width: auto;
+	}
+	.main-footer img {
+		max-width: none;
 	}
 }
 
