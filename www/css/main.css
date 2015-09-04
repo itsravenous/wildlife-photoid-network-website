@@ -26,6 +26,9 @@ a:focus,
 a:hover {
 	color: #62CC0C;
 }
+a img {
+	border: none;
+}
 
 /**
  * ID
